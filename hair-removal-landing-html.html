@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yes Hair Removal | ماكينة إزالة الشعر</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.05);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+        }
+
+        .discount-badge {
+            animation: shake 5s infinite;
+        }
+
+        @keyframes shake {
+
+            0%,
+            100% {
+                transform: rotate(0deg);
+            }
+
+            1%,
+            3%,
+            5% {
+                transform: rotate(-3deg);
+            }
+
+            2%,
+            4% {
+                transform: rotate(3deg);
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-b from-purple-50 to-white">
+    <!-- Hero Section -->
+    <section class="relative py-12 px-4 sm:px-6 lg:px-8 bg-purple-100">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="md:w-1/2 space-y-6">
+                    <h1 class="text-4xl font-bold text-purple-800 animate__animated animate__fadeInRight">
+                        تخلصي من الشعر الزائد بسهولة وبدون ألم مع ماكينة Yes!
+                    </h1>
+                    <p class="text-xl text-purple-600 animate__animated animate__fadeInRight animate__delay-1s">
+                        ماكينة Yes لإزالة الشعر تمنحك بشرة ناعمة كالأطفال في دقائق
+                    </p>
+                    <div class="flex gap-4 justify-end">
+                        <a href="#order"
+                            class="bg-purple-600 text-white px-8 py-3 rounded-lg hover:bg-purple-700 transition-colors pulse">
+                            اطلبي الآن
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="/api/placeholder/600/400" alt="Yes Hair Removal Device"
+                        class="rounded-lg shadow-xl float">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-bold text-center text-purple-800 mb-12">
+                لماذا تختارين ماكينة Yes؟
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="feature-card p-6 bg-purple-50 rounded-lg">
+                    <div class="text-center mb-4">
+                        <svg class="w-12 h-12 mx-auto text-purple-600" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-purple-800 text-center mb-2">
+                        إضاءة LED لتسهيل الرؤية
+                    </h3>
+                    <p class="text-purple-600 text-center">
+                        تساعدك على رؤية حتى أدق الشعيرات
+                    </p>
+                </div>
+                <div class="feature-card p-6 bg-purple-50 rounded-lg">
+                    <div class="text-center mb-4">
+                        <svg class="w-12 h-12 mx-auto text-purple-600" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-purple-800 text-center mb-2">
+                        مناسبة لجميع أنواع البشرة
+                    </h3>
+                    <p class="text-purple-600 text-center">
+                        مصممة خصيصًا لتكون آمنة على البشرة الحساسة
+                    </p>
+                </div>
+                <div class="feature-card p-6 bg-purple-50 rounded-lg">
+                    <div class="text-center mb-4">
+                        <svg class="w-12 h-12 mx-auto text-purple-600" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-purple-800 text-center mb-2">
+                        نتائج سريعة ومذهلة
+                    </h3>
+                    <p class="text-purple-600 text-center">
+                        بشرة ناعمة كالحرير بدون ألم
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-purple-50">
+        <div class="max-w-7xl mx-auto text-center">
+            <div class="discount-badge inline-block bg-red-500 text-white px-4 py-2 rounded-full mb-4">
+                عرض خاص! خصم 40%
+            </div>
+            <h2 class="text-3xl font-bold text-purple-800 mb-8">
+                عرض حصري لفترة محدودة!
+            </h2>
+            <div class="inline-block bg-white rounded-lg shadow-xl p-8">
+                <div class="line-through text-gray-500 text-xl">599 جنيه</div>
+                <div class="text-4xl font-bold text-purple-800 my-4">499 جنيه فقط</div>
+                <a href="#order"
+                    class="bg-purple-600 text-white px-8 py-3 rounded-lg hover:bg-purple-700 transition-colors inline-block">
+                    احجزي الآن
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Form -->
+    <section id="order" class="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-md mx-auto">
+            <h2 class="text-2xl font-bold text-purple-800 mb-8 text-center">
+                املئي بياناتك واحجزي جهازك الآن
+            </h2>
+            <form class="space-y-6">
+                <div>
+                    <label class="block text-purple-700 mb-2">الاسم الكامل</label>
+                    <input type="text"
+                        class="w-full p-3 border border-purple-200 rounded-lg focus:ring-2 focus:ring-purple-500 outline-none">
+                </div>
+                <div>
+                    <label class="block text-purple-700 mb-2">رقم الهاتف</label>
+                    <input type="tel"
+                        class="w-full p-3 border border-purple-200 rounded-lg focus:ring-2 focus:ring-purple-500 outline-none">
+                </div>
+                <div>
+                    <label class="block text-purple-700 mb-2">العنوان</label>
+                    <textarea
+                        class="w-full p-3 border border-purple-200 rounded-lg focus:ring-2 focus:ring-purple-500 outline-none"></textarea>
+                </div>
+                <button type="submit"
+                    class="w-full bg-purple-600 text-white py-3 rounded-lg hover:bg-purple-700 transition-colors">
+                    تأكيد الطلب
+                </button>
+            </form>
+        </div>
+    </section>
+
+
+
+
+    <!-- Trust Badges -->
+    <section class="py-8 px-4 sm:px-6 lg:px-8 bg-purple-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                <div class="flex items-center justify-center gap-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                    </svg>
+                    <span class="text-purple-800">الدفع عند الاستلام</span>
+                </div>
+                <div class="flex items-center justify-center gap-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    </svg>
+                    <span class="text-purple-800">ضمان الاستبدال</span>
+                </div>
+                <div class="flex items-center justify-center gap-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                    <span class="text-purple-800">شحن سريع لجميع المحافظات</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Accordion -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl font-bold text-center text-purple-800 mb-12">
+                الأسئلة الشائعة
+            </h2>
+            <div class="space-y-4">
+                <div class="border border-purple-200 rounded-lg">
+                    <button
+                        class="w-full p-4 text-right bg-purple-50 hover:bg-purple-100 transition-colors rounded-lg focus:outline-none">
+                        <div class="flex items-center justify-between">
+                            <span class="font-semibold text-purple-800">هل المنتج آمن للبشرة الحساسة؟</span>
+                            <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </div>
+                    </button>
+                    <div class="p-4 bg-white">
+                        نعم، المنتج آمن تماماً على جميع أنواع البشرة بما فيها البشرة الحساسة. تم اختباره سريرياً للتأكد
+                        من
+                        سلامته.
+                    </div>
+                </div>
+                <!-- More FAQ items -->
+            </div>
+        </div>
+    </section>
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-purple-50">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-bold text-center text-purple-800 mb-12">
+                آراء عملائنا السعداء
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Review Card 1 -->
+                <div class="review-card bg-white p-6 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <img src="/api/placeholder/50/50" alt="Customer" class="w-12 h-12 rounded-full">
+                        <div class="mr-4">
+                            <h4 class="font-bold text-purple-800">سارة محمد</h4>
+                            <div class="text-yellow-400">
+                                ★★★★★
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">
+                        "منتج رائع جداً! سهل الاستخدام وفعال. النتائج ظهرت من أول استخدام. أنصح به بشدة."
+                    </p>
+                </div>
+
+                <!-- Review Card 2 -->
+                <div class="review-card bg-white p-6 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <img src="/api/placeholder/50/50" alt="Customer" class="w-12 h-12 rounded-full">
+                        <div class="mr-4">
+                            <h4 class="font-bold text-purple-800">نور أحمد</h4>
+                            <div class="text-yellow-400">
+                                ★★★★★
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">
+                        "بعد تجربة العديد من المنتجات، وجدت أخيراً الحل المثالي. بشرتي أصبحت ناعمة جداً."
+                    </p>
+                </div>
+
+                <!-- Review Card 3 -->
+                <div class="review-card bg-white p-6 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <img src="/api/placeholder/50/50" alt="Customer" class="w-12 h-12 rounded-full">
+                        <div class="mr-4">
+                            <h4 class="font-bold text-purple-800">مريم خالد</h4>
+                            <div class="text-yellow-400">
+                                ★★★★★
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">
+                        "سهل الاستخدام وآمن على البشرة الحساسة. أفضل استثمار للعناية بالبشرة."
+                    </p>
+                </div>
+            </div>
+
+            <!-- Add Review Section -->
+            <div class="mt-12 bg-white p-8 rounded-lg shadow-lg max-w-2xl mx-auto">
+                <h3 class="text-2xl font-bold text-purple-800 mb-6 text-center">
+                    شاركي تجربتك معنا
+                </h3>
+                <form class="space-y-6">
+                    <div>
+                        <label class="block text-purple-700 mb-2">تقييمك</label>
+                        <div class="star-rating text-3xl flex justify-center gap-2">
+                            <input type="radio" id="star5" name="rating" value="5">
+                            <label for="star5">★</label>
+                            <input type="radio" id="star4" name="rating" value="4">
+                            <label for="star4">★</label>
+                            <input type="radio" id="star3" name="rating" value="3">
+                            <label for="star3">★</label>
+                            <input type="radio" id="star2" name="rating" value="2">
+                            <label for="star2">★</label>
+                            <input type="radio" id="star1" name="rating" value="1">
+                            <label for="star1">★</label>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-purple-700 mb-2">اسمك</label>
+                        <input type="text"
+                            class="w-full p-3 border border-purple-200 rounded-lg focus:ring-2 focus:ring-purple-500 outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-purple-700 mb-2">تجربتك</label>
+                        <textarea
+                            class="w-full p-3 border border-purple-200 rounded-lg focus:ring-2 focus:ring-purple-500 outline-none"
+                            rows="4"></textarea>
+                    </div>
+                    <button type="submit"
+                        class="w-full bg-purple-600 text-white py-3 rounded-lg hover:bg-purple-700 transition-colors">
+                        إرسال التقييم
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fixed CTA Button -->
+    <div class="fixed bottom-4 left-4 z-50">
+        <a href="#order"
+            class="bg-purple-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-purple-700 transition-colors pulse">
+            اطلبي الآن
+        </a>
+    </div>
+</body>
+
+</html>
